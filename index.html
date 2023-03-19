@@ -1,0 +1,481 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="nav">
+        <div class="container">
+            <div class="wrapper">
+                <div class="left-nav">
+                    <i class="fa-solid fa-bars" id="bars"></i>
+                    <h1 id="logo"><span id="meme-logo">Meme</span><span>Land</span></h1>
+                </div>
+                <!---->
+                <div class="leftbar-btn">
+                    <button id="left-btn">
+                        <div id="pop">
+                            <div id="pop-wrap"><i class="fa-solid fa-arrow-trend-up" id="pop-icon"></i></div>
+                            <h4>Popular</h4>
+                            <div id="drop"><i class="fa-sharp fa-solid fa-angle-down"></i></div>
+                        </div>
+                    </button>
+                </div>
+                <div class="search">
+                   <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                   <input type="text" id="search-el">
+                </div>
+                <ul id="nav-ul">
+                    <li class="nav-li" id="sign">Sign Up/Log In</li>
+                    <li class="nav-li" id="profile"><div id="hero"></div></li>
+                    <style>
+                        #hero {
+                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                            background-position: center;
+                            background-size: cover;
+                        }
+                    </style>
+                    <li class="nav-li"><button id ="post">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path></svg>
+                        <span>Post</span>
+                      </button></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="body">
+        <div class="container">
+            
+            <div class="tr-title">
+                <small id="trend-title">Trending today</small>
+            </div>
+            <div class="wrapper">
+                <div class="trends">
+    
+                    <div id="trend-1">
+
+                            
+                    </div>
+                    <div id="trend-2">
+                        
+                    </div>
+                    <div id="trend-3">
+                        
+                    </div>
+                    <div id="trend-4">
+                        
+                    </div>
+
+                    <style>
+                        .trends *{
+                            
+                            background-position: center;
+                            background-size: cover;
+                        }
+
+                        #trend-1 {
+                            background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(t1.jpg);
+                            background-position: center;
+                            background-size: cover;
+
+                        }
+
+                        #trend-2 {
+                            background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(t2.jpg);
+                            background-position: center;
+                            background-size: cover;
+
+                        }
+
+                        #trend-3 {
+                            background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(t3.jpg);
+                            background-position: center;
+                            background-size: cover;
+
+                        }
+
+                        #trend-4 {
+                            background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url(t4.jpg);
+                            background-position: center;
+                            background-size: cover;
+
+                        }
+                    </style>
+                    
+                </div>
+                <div class="posts">
+                    <div class="title">
+                        <small id="popular-title">Popular posts</small>
+                    </div>
+                    <div class="head-post">
+                        <button id="hot"><i class="fa-solid fa-fire-flame-simple"></i>  Hot</button>
+                        <button id="country">Philippines  <i class="fa-sharp fa-solid fa-chevron-down"></i></button>
+                        <button id="new"><i class="fa-sharp fa-regular fa-sun"></i>  New</button>
+                        <button id="top"><i class="fa-solid fa-chart-simple"></i> Top</button>
+                        <button id="dots"><i class="fa-solid fa-ellipsis"></i></button>
+                    </div>
+                    <div class="memes">
+                        <div class="meme" id="meme-1">
+                            <div class="users">
+                                <div class="user">
+                                    <div class="user-prof"></div>
+                                    <style>
+                                        .user-prof {
+                                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                                            background-position: center;
+                                            background-size: cover;
+                                        }    
+                                    </style>
+                                    <small id="user-name">Harvie Poltergeist</small>
+                                    <small id="date">1d</small>
+                                </div>
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <h3 id="caption">Legendary moments</h3>
+                            <div class="meme-wrap">
+                                <img src="m8.jpg" alt="" id="meme-img">
+                            </div>
+                            <div class="react-btn">
+                                <button id="up" class="reacts"><i class="fa-solid fa-thumbs-up"></i> 2.6k</button>
+                                <button id="down" class="reacts"><i class="fa-solid fa-share"></i> 1.5k</button>
+                                <button id="comment" class="reacts"><i class="fa-solid fa-message"></i> 2.3k</button>
+                            </div>
+                        </div>
+
+                        <div class="meme" id="meme-2">
+                            <div class="users">
+                                <div class="user">
+                                    <div class="user-prof"></div>
+                                    <style>
+                                        .user-prof {
+                                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                                            background-position: center;
+                                            background-size: cover;
+                                        }    
+                                    </style>
+                                    <small id="user-name">Harvie Poltergeis</small>
+                                    <small id="date">1d</small>
+                                </div>
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <h3 id="caption">Rise and Sunshine</h3>
+                            <div class="meme-wrap">
+                                <img src="meme1.jpg" alt="" id="meme-img">
+                            </div>
+                            <div class="react-btn">
+                                <button id="up" class="reacts"><i class="fa-solid fa-thumbs-up"></i> 2.6k</button>
+                                <button id="down" class="reacts"><i class="fa-solid fa-share"></i> 1.5k</button>
+                                <button id="comment" class="reacts"><i class="fa-solid fa-message"></i> 2.3k</button>
+                            </div>
+                        </div>
+
+                        <div class="meme" id="meme-3">
+                            <div class="users">
+                                <div class="user">
+                                    <div class="user-prof"></div>
+                                    <style>
+                                        .user-prof {
+                                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                                            background-position: center;
+                                            background-size: cover;
+                                        }    
+                                    </style>
+                                    <small id="user-name">Harvie Poltergeist</small>
+                                    <small id="date">1d</small>
+                                </div>
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <h3 id="caption">Average discord dating server enjoyer</h3>
+                            <div class="meme-wrap">
+                                <img src="m2.jpg" alt="" id="meme-img">
+                            </div>
+                            <div class="react-btn">
+                                <button id="up" class="reacts"><i class="fa-solid fa-thumbs-up"></i> 2.6k</button>
+                                <button id="down" class="reacts"><i class="fa-solid fa-share"></i> 1.5k</button>
+                                <button id="comment" class="reacts"><i class="fa-solid fa-message"></i> 2.3k</button>
+                            </div>
+                        </div>
+
+
+                        <div class="meme" id="meme-4">
+                            <div class="users">
+                                <div class="user">
+                                    <div class="user-prof"></div>
+                                    <style>
+                                        .user-prof {
+                                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                                            background-position: center;
+                                            background-size: cover;
+                                        }    
+                                    </style>
+                                    <small id="user-name">Harvie Poltergeist</small>
+                                    <small id="date">1d</small>
+                                </div>
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <h3 id="caption">No kittens allowed</h3>
+                            <div class="meme-wrap">
+                                <img src="m3.jpg" alt="" id="meme-img">
+                            </div>
+                            <div class="react-btn">
+                                <button id="up" class="reacts"><i class="fa-solid fa-thumbs-up"></i> 2.6k</button>
+                                <button id="down" class="reacts"><i class="fa-solid fa-share"></i> 1.5k</button>
+                                <button id="comment" class="reacts"><i class="fa-solid fa-message"></i> 2.3k</button>
+                            </div>
+                        </div>
+
+                        <div class="meme" id="meme-5">
+                            <div class="users">
+                                <div class="user">
+                                    <div class="user-prof"></div>
+                                    <style>
+                                        .user-prof {
+                                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                                            background-position: center;
+                                            background-size: cover;
+                                        }    
+                                    </style>
+                                    <small id="user-name">Harvie Poltergeis</small>
+                                    <small id="date">1d</small>
+                                </div>
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <h3 id="caption">Dripllionaire Grindset</h3>
+                            <div class="meme-wrap">
+                                <img src="m4.jpg" alt="" id="meme-img">
+                            </div>
+                            <div class="react-btn">
+                                <button id="up" class="reacts"><i class="fa-solid fa-thumbs-up"></i> 2.6k</button>
+                                <button id="down" class="reacts"><i class="fa-solid fa-share"></i> 1.5k</button>
+                                <button id="comment" class="reacts"><i class="fa-solid fa-message"></i> 2.3k</button>
+                            </div>
+                        </div>
+
+                       
+
+                        <div class="meme" id="meme-6">
+                            <div class="users">
+                                <div class="user">
+                                    <div class="user-prof"></div>
+                                    <style>
+                                        .user-prof {
+                                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                                            background-position: center;
+                                            background-size: cover;
+                                        }    
+                                    </style>
+                                    <small id="user-name">Harvie Poltergeist</small>
+                                    <small id="date">1d</small>
+                                </div>
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <h3 id="caption">Bitches love nigga in a suit</h3>
+                            <div class="meme-wrap">
+                                <img src="m5.jpg" alt="" id="meme-img">
+                            </div>
+                            <div class="react-btn">
+                                <button id="up" class="reacts"><i class="fa-solid fa-thumbs-up"></i> 2.6k</button>
+                                <button id="down" class="reacts"><i class="fa-solid fa-share"></i> 1.5k</button>
+                                <button id="comment" class="reacts"><i class="fa-solid fa-message"></i> 2.3k</button>
+                            </div>
+                        </div>
+
+
+                        <div class="meme" id="meme-7">
+                            <div class="users">
+                                <div class="user">
+                                    <div class="user-prof"></div>
+                                    <style>
+                                        .user-prof {
+                                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                                            background-position: center;
+                                            background-size: cover;
+                                        }    
+                                    </style>
+                                    <small id="user-name">Harvie Poltergeist</small>
+                                    <small id="date">1d</small>
+                                </div>
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <h3 id="caption">Say SDN one more time</h3>
+                            <div class="meme-wrap">
+                                <img src="m6.jpg" alt="" id="meme-img">
+                            </div>
+                            <div class="react-btn">
+                                <button id="up" class="reacts"><i class="fa-solid fa-thumbs-up"></i> 2.6k</button>
+                                <button id="down" class="reacts"><i class="fa-solid fa-share"></i> 1.5k</button>
+                                <button id="comment" class="reacts"><i class="fa-solid fa-message"></i> 2.3k</button>
+                            </div>
+                        </div>
+
+
+                        <div class="meme" id="meme-8">
+                            <div class="users">
+                                <div class="user">
+                                    <div class="user-prof"></div>
+                                    <style>
+                                        .user-prof {
+                                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                                            background-position: center;
+                                            background-size: cover;
+                                        }    
+                                    </style>
+                                    <small id="user-name">Harvie Poltergeist</small>
+                                    <small id="date">1d</small>
+                                </div>
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <h3 id="caption">Can someone explain this</h3>
+                            <div class="meme-wrap">
+                                <img src="m7.png" alt="" id="meme-img">
+                            </div>
+                            <div class="react-btn">
+                                <button id="up" class="reacts"><i class="fa-solid fa-thumbs-up"></i> 2.6k</button>
+                                <button id="down" class="reacts"><i class="fa-solid fa-share"></i> 1.5k</button>
+                                <button id="comment" class="reacts"><i class="fa-solid fa-message"></i> 2.3k</button>
+                            </div>
+                        </div>
+
+                        <div class="meme" id="meme-9">
+                            <div class="users">
+                                <div class="user">
+                                    <div class="user-prof"></div>
+                                    <style>
+                                        .user-prof {
+                                            background-image: url(C:/Users/Lenovo/Desktop/WebShit/MemeLand/profile.jpg);
+                                            background-position: center;
+                                            background-size: cover;
+                                        }    
+                                    </style>
+                                    <small id="user-name">Harvie Poltergeist</small>
+                                    <small id="date">1d</small>
+                                </div>
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <h3 id="caption">Sigma rule #69</h3>
+                            <div class="meme-wrap">
+                                <img src="m9.jpg" alt="" id="meme-img">
+                            </div>
+                            <div class="react-btn">
+                                <button id="up" class="reacts"><i class="fa-solid fa-thumbs-up"></i> 2.6k</button>
+                                <button id="down" class="reacts"><i class="fa-solid fa-share"></i> 1.5k</button>
+                                <button id="comment" class="reacts"><i class="fa-solid fa-message"></i> 2.3k</button>
+                            </div>
+                        </div>
+                        
+
+
+
+
+                    </div>
+                </div>
+                <div class="right-bar">
+                   <div class="communities">
+                        <small id="head">POPULAR COMMUNITIES</small>
+                        <div class="categories">
+                            <div class="line"><p>AskReddit</p>   <p>NoStupidQuestions</p></div>
+                            <div class="line"><p>DestinyTheGame</p>    <p>ExplainLike</p></div>
+                            <div class="line"><p>Askmen</p> <p>ExplainLike</p>    <p>Minecraft</p></div>
+                            <button id="see-more">See more</button>
+                        </div>
+                   </div>
+                   <div class="categories">
+                        <ul id="cat-ul">
+                            <div class="cat-wrap">
+                                <li class="cat-li">Gaming</li>
+                                <i class="fa-sharp fa-solid fa-angle-down" id="cat-icon"></i>
+                            </div>
+                            <div class="cat-wrap">
+                                <li class="cat-li">Sports</li>
+                                <i class="fa-sharp fa-solid fa-angle-down" id="cat-icon"></i>
+                            </div>
+                            <div class="cat-wrap">
+                                <li class="cat-li">Tv</li>
+                                <i class="fa-sharp fa-solid fa-angle-down" id="cat-icon"></i>
+                            </div>
+                            <div class="cat-wrap">
+                                <li class="cat-li">Travel</li>
+                                <i class="fa-sharp fa-solid fa-angle-down" id="cat-icon"></i>
+                            </div>
+                            <div class="cat-wrap">
+                                <li class="cat-li">Music</li>
+                                <i class="fa-sharp fa-solid fa-angle-down" id="cat-icon"></i>
+                            </div>
+                            <div class="cat-wrap">
+                                <li class="cat-li">Fashion</li>
+                                <i class="fa-sharp fa-solid fa-angle-down" id="cat-icon"></i>
+                            </div>
+                        </ul>
+                   </div>
+                </div>
+
+                <div class="left-bar">
+                    <div class="left-menu">
+                        <div class="feeds">
+                            <small>Feeds</small>
+                            <div class="feed-btn"><i class="fa-solid fa-house" id="feed-icon"></i><h4>Home</h4></div>
+                            <div class="feed-btn"><i class="fa-solid fa-arrow-trend-up" id="feed-icon"></i></i><h4>Trending</h4></div>
+                            <div class="feed-btn" id="third-feed"><i class="fa-regular fa-clock" id="feed-icon"></i><h4>Fresh</h4></div>
+                            <div class="feed-btn" id="fourth-feed"><i class="fa-sharp fa-solid fa-chart-simple" id="feed-icon"></i><h4>Top</h4></div>
+                        </div>
+                        <div class="tags">
+                            <small>Explore Tags</small>
+                                <div class="tags-ul">
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                    <li class="tags-li">Dank Meme <i class="fa-solid fa-star" id="star"></i></li>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
